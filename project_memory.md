@@ -77,6 +77,20 @@ Luồng chạy chính (main.py, sẽ code ở phase sau):
 - [ ] `main.py`: orchestrate toàn bộ pipeline V1 (crawl tất cả nguồn trong `ALL_CRAWLERS` -> `build_projects` -> `merge_projects` -> filter theo history -> gửi Telegram -> ghi lại `projects.json` + `history.json`).
 - [ ] Test thử chạy full pipeline local với `.env` thật (cần user điền `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` thật để test gửi tin nhắn).
 
+### Phase 3 — History + Telegram ✅ (xong, có 1 phát hiện quan trọng cần theo dõi)
+- [x] `src/utils/history.py`: `load_history()` / `save_history()` (đọc/ghi `data/history.json`, có tham số `path` để test không đụng file thật) + `filter_new_projects()` (lọc theo `Project.unique_id`).
+- [x] `src/telegram/notifier.py`: `format_project_message()` (escape HTML, cắt bớt description quá dài), `send_message()` (gọi Telegram Bot API qua `post_json` mới thêm vào `http_client.py`), `notify_new_projects()` (chỉ trả về project gửi THÀNH CÔNG - project lỗi sẽ tự động được thử lại ở lần crawl sau vì không bị ghi vào history).
+- [x] `main.py`: orchestrate đầy đủ pipeline V1 (`crawl_all_projects` -> `merge_projects` -> `filter_new_projects` -> `notify_new_projects` -> ghi `data/projects.json` + `data/history.json`). Không chứa logic nghiệp vụ, chỉ gọi tới các module trong `src/`.
+- [x] `tests/test_history.py`, `tests/test_telegram.py`, `tests/test_main.py` (integration test full pipeline với crawler + Telegram giả lập) — **25/25 test pass**, không gọi mạng thật.
+- [x] Đã chạy thử `main.py` thật 2 lần (không có `.env` → lỗi config bị bắt gọn, pipeline vẫn chạy hết; có `.env` giả → xác nhận hành vi resilience).
+
+**⚠️ PHÁT HIỆN QUAN TRỌNG cần theo dõi khi deploy thật:**
+Khi chạy thử `main.py` thật (gọi tới `airdrops.io/latest/`), nhận về **HTTP 403 Forbidden** - đây là response thật từ server (không phải lỗi mạng), nhiều khả năng do WAF/bot-detection (kiểu Cloudflare) chặn request có `User-Agent` không giống trình duyệt thật.
+→ **Cần làm khi deploy lên GitHub Actions thật:** kiểm tra log lần chạy đầu tiên. Nếu vẫn bị 403:
+  - Thử đổi `User-Agent` trong `src/utils/http_client.py` (`DEFAULT_HEADERS`) giống trình duyệt thật hơn (Chrome UA string).
+  - Nếu vẫn bị chặn, có thể IP của GitHub Actions runner bị Cloudflare liệt vào danh sách datacenter/bot (giống vấn đề đã gặp với `dien-telegram-bot` bị EVNNPC chặn IP datacenter trước đây) - lúc đó cần cân nhắc: đổi tần suất crawl, thêm delay, hoặc chấp nhận nguồn này không ổn định.
+  - KHÔNG cần sửa gì nếu GitHub Actions IP không bị chặn (rất có thể sandbox dev này bị chặn nhưng GitHub Actions thì không, hoặc ngược lại) - phải test thật mới biết chắc.
+
 ### Phase 4 — Scorer (V2) + Gemini AI (V3)
 - [ ] `src/scorer/base.py`: interface `ProjectScorer` (abstract).
 - [ ] `src/scorer/rule_based.py`: implementation đơn giản chấm `worth_score` (V2).
@@ -94,10 +108,11 @@ Xem checklist đầy đủ ở section **"🧹 CHECKLIST DỌN DẸP CUỐI DỰ
 Nguyên tắc chung: **không tự ý xoá gì** — luôn hỏi user xác nhận trước từng bước.
 
 ## Bước tiếp theo ngay bây giờ
-👉 Phase 3: history filter (chống gửi trùng) + Telegram notifier + `main.py` orchestrate pipeline V1 đầu-cuối.
+👉 Phase 4: `ProjectScorer` (V2 rule-based) + `AIProvider`/`GeminiProvider` (V3), tích hợp vào `main.py` qua `ENABLE_AI_SCORING`.
 
 ## Việc còn nợ (không quên)
 - Galxe/Layer3/Zealy crawler còn là stub (`[]`) - cần quay lại sau khi có network thật để DevTools-inspect (chi tiết đã ghi trong docstring từng file `src/crawler/{galxe,layer3,zealy}.py`).
+- **Theo dõi lỗi 403 Forbidden từ airdrops.io** (xem chi tiết ở Phase 3 phía trên) - kiểm tra log lần chạy GitHub Actions đầu tiên, chuẩn bị sẵn phương án đổi User-Agent nếu cần.
 
 ---
 
