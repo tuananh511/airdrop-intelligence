@@ -26,7 +26,7 @@ class Settings(BaseModel):
 
     ai_provider: str = "gemini"
     gemini_api_key: str | None = None
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-3.1-flash-lite"
     enable_ai_scoring: bool = False
 
     http_timeout_seconds: float = 15.0
@@ -54,7 +54,7 @@ def get_settings() -> Settings:
             telegram_chat_id=os.environ["TELEGRAM_CHAT_ID"],
             ai_provider=os.getenv("AI_PROVIDER", "gemini"),
             gemini_api_key=os.getenv("GEMINI_API_KEY"),
-            gemini_model=os.getenv("GEMINI_MODEL", "gemini-2.0-flash"),
+            gemini_model=os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite"),
             enable_ai_scoring=_str_to_bool(os.getenv("ENABLE_AI_SCORING", "false")),
             http_timeout_seconds=float(os.getenv("HTTP_TIMEOUT_SECONDS", "15")),
             http_max_retries=int(os.getenv("HTTP_MAX_RETRIES", "3")),

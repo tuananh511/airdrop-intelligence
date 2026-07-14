@@ -38,6 +38,18 @@ def format_project_message(project: Project) -> str:
             description = description[: _MAX_DESCRIPTION_LENGTH - 3] + "..."
         lines.append(f"📝 {_escape_html(description)}")
 
+    if project.ai_score is not None:
+        # Có AI score (V3, Gemini) -> ưu tiên hiển thị (chi tiết hơn rule-based).
+        ai = project.ai_score
+        lines.append("")
+        lines.append(f"🤖 <b>AI đánh giá</b> — Đáng làm: {ai.worth}/100 | Rủi ro: {ai.risk}/100")
+        lines.append(f"⏱ Thời gian: {ai.time_estimate} | 💰 Vốn cần: {ai.capital_required}")
+        if ai.summary:
+            lines.append(f"💬 {_escape_html(ai.summary)}")
+    elif project.score is not None:
+        # Không có AI score -> hiển thị điểm rule-based (V2) làm tham khảo nhanh.
+        lines.append(f"⭐ Điểm sơ bộ: {project.score.worth_score}/100")
+
     return "\n".join(lines)
 
 
