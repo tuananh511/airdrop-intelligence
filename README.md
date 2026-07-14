@@ -143,5 +143,3 @@ Workflow tự commit lại `data/projects.json` + `data/history.json` sau mỗi 
 Không có frontend, không login, không database, không ví Web3, không tự động claim/swap/ký giao dịch. Đây là bot **thông báo + hỗ trợ nghiên cứu**, không tự động thực hiện hành động on-chain nào.
 
 ---
-
-📌 Xem `project_memory.md` để biết lịch sử phát triển đầy đủ, quyết định kỹ thuật, và checklist dọn dẹp trước khi coi project là "chính thức" (official).
