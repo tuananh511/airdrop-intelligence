@@ -1,0 +1,52 @@
+name: Airdrop Crawl
+
+# Chạy mỗi 2 giờ + cho phép trigger thủ công (tab Actions > Run workflow) để test.
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}
+
+# Cần quyền write để job có thể commit lại data/*.json (state, không dùng DB).
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Cài đặt uv
+        uses: astral-sh/setup-uv@v8.1.0
+        with:
+          enable-cache: true
+
+      - name: Cài Python 3.12 qua uv
+        run: uv python install 3.12
+
+      - name: Sync dependency (uv sync)
+        run: uv sync
+
+      - name: Chạy bot (main.py)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          AI_PROVIDER: gemini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
+          ENABLE_AI_SCORING: ${{ vars.ENABLE_AI_SCORING || 'false' }}
+          HTTP_TIMEOUT_SECONDS: "15"
+          HTTP_MAX_RETRIES: "3"
+          LOG_LEVEL: "INFO"
+        run: uv run python main.py
+
+      - name: Commit lại data/*.json nếu có thay đổi
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/projects.json data/history.json
+          git diff --cached --quiet || git commit -m "chore: cap nhat airdrop data [skip ci]"
+          git push
