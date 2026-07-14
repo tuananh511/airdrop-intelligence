@@ -1,8 +1,8 @@
 [
   {
-    "title": "ADI Predictstreet",
+    "title": "Hudi",
     "website": null,
-    "description": "Actions:Claim Card, Complete Quests and Refer Users",
+    "description": "Actions:Join Waitlist, Complete Social Tasks, Refer Users",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
@@ -12,6 +12,55 @@
     "tags": [
       "Ongoing",
       "airdrops.io"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "Mantle",
+    "website": null,
+    "description": "",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/mantle/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 60,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "ADI Predictstreet",
+    "website": null,
+    "description": "Actions:Claim Card, Complete Quests and Refer Users",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/adi-predictstreet/",
+    "tags": [
+      "Ongoing"
     ],
     "published_at": null,
     "score": {
@@ -76,6 +125,31 @@
     "ai_score": null
   },
   {
+    "title": "Minotaurus",
+    "website": null,
+    "description": "Actions:Earn tickets to enter $100k giveaway",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/minotaurus/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
     "title": "Rialto",
     "website": null,
     "description": "Actions:Sign Up, Trade, Swap and Refer Friends",
@@ -110,31 +184,6 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/hyperlynx/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Minotaurus",
-    "website": null,
-    "description": "Actions:Earn tickets to enter $100k giveaway",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/minotaurus/",
     "tags": [
       "Ongoing"
     ],
@@ -385,56 +434,6 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/truenorth/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Brighter",
-    "website": null,
-    "description": "Actions:Connect wallet, connect X & refer friends",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/brighter/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Collector Crypt",
-    "website": null,
-    "description": "Actions:Sign in, Open Gacha Packs and Refer to Earn",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/collector-crypt/",
     "tags": [
       "Ongoing"
     ],
