@@ -1,8 +1,8 @@
 [
   {
-    "title": "Legend",
+    "title": "HoodTracker",
     "website": null,
-    "description": "Actions:Sign Up, Deposit, Trade and Refer Users",
+    "description": "Actions:Connect X, social tasks & hold HDTX tokens",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
@@ -12,31 +12,6 @@
     "tags": [
       "Ongoing",
       "airdrops.io"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "HoodTracker",
-    "website": null,
-    "description": "Actions:Connect X, social tasks & hold HDTX tokens",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/hoodtracker/",
-    "tags": [
-      "Ongoing"
     ],
     "published_at": null,
     "score": {
@@ -101,30 +76,6 @@
     "ai_score": null
   },
   {
-    "title": "Mantle",
-    "website": null,
-    "description": "",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/mantle/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 60,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
     "title": "Minotaurus",
     "website": null,
     "description": "Actions:Earn tickets to enter $100k giveaway",
@@ -143,6 +94,30 @@
       "reasons": [
         "Điểm khởi đầu: 50",
         "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "Mantle",
+    "website": null,
+    "description": "",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/mantle/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 60,
+      "reasons": [
+        "Điểm khởi đầu: 50",
         "+5: đang trong giai đoạn Ongoing",
         "+5: không tốn vốn / chi phí thấp"
       ]
@@ -444,6 +419,31 @@
         "Điểm khởi đầu: 50",
         "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
         "-30: đã kết thúc (Ended) - có thể không còn giá trị",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "ArcNova",
+    "website": null,
+    "description": "Actions:Complete daily check-ins, download the app and complete tasks",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/arcnova/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
         "+5: không tốn vốn / chi phí thấp"
       ]
     },
