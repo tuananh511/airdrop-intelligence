@@ -1,8 +1,8 @@
 [
   {
-    "title": "HoodTracker",
+    "title": "Tradoor0",
     "website": null,
-    "description": "Actions:Connect X, social tasks & hold HDTX tokens",
+    "description": "Actions:Use market making bot",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
@@ -12,6 +12,54 @@
     "tags": [
       "Ongoing",
       "airdrops.io"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 60,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "3Jane",
+    "website": null,
+    "description": "Actions:Supply USDC",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/3jane/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 60,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "HoodTracker",
+    "website": null,
+    "description": "Actions:Connect X, social tasks & hold HDTX tokens",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/hoodtracker/",
+    "tags": [
+      "Ongoing"
     ],
     "published_at": null,
     "score": {
@@ -35,6 +83,31 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/checkpoint/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "Minotaurus",
+    "website": null,
+    "description": "Actions:Earn tickets to enter $100k giveaway",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/minotaurus/",
     "tags": [
       "Ongoing"
     ],
@@ -93,31 +166,6 @@
       "worth_score": 60,
       "reasons": [
         "Điểm khởi đầu: 50",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Minotaurus",
-    "website": null,
-    "description": "Actions:Earn tickets to enter $100k giveaway",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/minotaurus/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
         "+5: đang trong giai đoạn Ongoing",
         "+5: không tốn vốn / chi phí thấp"
       ]
@@ -384,56 +432,6 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/tori-finance/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Scout",
-    "website": null,
-    "description": "Actions:Upload photos or videos to earn SOL",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/scout/",
-    "tags": [
-      "Ended"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 35,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "-30: đã kết thúc (Ended) - có thể không còn giá trị",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "ArcNova",
-    "website": null,
-    "description": "Actions:Complete daily check-ins, download the app and complete tasks",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/arcnova/",
     "tags": [
       "Ongoing"
     ],
