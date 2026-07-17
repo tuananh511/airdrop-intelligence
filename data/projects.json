@@ -1,8 +1,8 @@
 [
   {
-    "title": "Tradoor0",
+    "title": "Ducat",
     "website": null,
-    "description": "Actions:Use market making bot",
+    "description": "Actions:Join Discord, Request and Redeem Code",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
@@ -12,6 +12,31 @@
     "tags": [
       "Ongoing",
       "airdrops.io"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "Tradoor0",
+    "website": null,
+    "description": "Actions:Use market making bot",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/tradoor0/",
+    "tags": [
+      "Ongoing"
     ],
     "published_at": null,
     "score": {
@@ -74,15 +99,15 @@
     "ai_score": null
   },
   {
-    "title": "Checkpoint",
+    "title": "Minotaurus",
     "website": null,
-    "description": "Actions:Connect Wallet, Deposit Points, Trade",
+    "description": "Actions:Earn tickets to enter $100k giveaway",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
     "category": "other",
     "source": "airdrops.io",
-    "source_url": "https://airdrops.io/checkpoint/",
+    "source_url": "https://airdrops.io/minotaurus/",
     "tags": [
       "Ongoing"
     ],
@@ -99,15 +124,15 @@
     "ai_score": null
   },
   {
-    "title": "Minotaurus",
+    "title": "Checkpoint",
     "website": null,
-    "description": "Actions:Earn tickets to enter $100k giveaway",
+    "description": "Actions:Connect Wallet, Deposit Points, Trade",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
     "category": "other",
     "source": "airdrops.io",
-    "source_url": "https://airdrops.io/minotaurus/",
+    "source_url": "https://airdrops.io/checkpoint/",
     "tags": [
       "Ongoing"
     ],
@@ -407,31 +432,6 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/arcus/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Tori Finance",
-    "website": null,
-    "description": "Actions:Deposit, Stake Coins and Refer Users",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/tori-finance/",
     "tags": [
       "Ongoing"
     ],
