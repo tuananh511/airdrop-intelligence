@@ -120,15 +120,8 @@ Workflow tự commit lại `data/projects.json` + `data/history.json` sau mỗi 
 - **`airdrops.io` từng trả về 403 Forbidden khi test ở môi trường dev** (nghi WAF chặn theo IP datacenter). Cần kiểm tra log lần chạy GitHub Actions đầu tiên — IP của GitHub Actions runner có thể bị chặn hoặc không, phải test thật mới biết.
 - **Dedupe theo tên project (đã normalize)** — đơn giản cho V1, có thể nhận nhầm 2 project khác nhau nhưng trùng tên, hoặc bỏ sót project cùng 1 dự án nhưng đặt tên khác nhau ở 2 nguồn.
 
-## 7. Screenshot
 
-> _(Chèn ảnh chụp màn hình tin nhắn Telegram thực tế ở đây sau khi chạy thử)_
-
-```
-[ Ảnh chụp Telegram bot gửi thông báo airdrop mới ]
-```
-
-## 8. Roadmap
+## 7. Roadmap
 
 - [x] **V1**: Crawler (1/4 nguồn hoạt động) + parser + dedupe + Telegram + chống gửi trùng
 - [x] **V2**: `ProjectScorer` rule-based
@@ -138,7 +131,7 @@ Workflow tự commit lại `data/projects.json` + `data/history.json` sau mỗi 
 - [ ] Cân nhắc thêm nguồn mới (vd DappRadar, CoinMarketCap Airdrops)
 - [ ] Dashboard xem lại lịch sử airdrop đã gửi (hiện chỉ có JSON thô)
 
-## 9. Không làm (out of scope, theo thiết kế)
+## 8. Không làm (out of scope, theo thiết kế)
 
 Không có frontend, không login, không database, không ví Web3, không tự động claim/swap/ký giao dịch. Đây là bot **thông báo + hỗ trợ nghiên cứu**, không tự động thực hiện hành động on-chain nào.
 
