@@ -1,8 +1,8 @@
 [
   {
-    "title": "Ducat",
+    "title": "Privacy Pools",
     "website": null,
-    "description": "Actions:Join Discord, Request and Redeem Code",
+    "description": "Actions:Generate Entropy, Complete Contribution and Deposit",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
@@ -12,6 +12,31 @@
     "tags": [
       "Ongoing",
       "airdrops.io"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
+    "title": "Ducat",
+    "website": null,
+    "description": "Actions:Join Discord, Request and Redeem Code",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/ducat/",
+    "tags": [
+      "Ongoing"
     ],
     "published_at": null,
     "score": {
@@ -407,31 +432,6 @@
     "category": "other",
     "source": "airdrops.io",
     "source_url": "https://airdrops.io/flipper/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 70,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
-    "title": "Arcus",
-    "website": null,
-    "description": "Actions:Sign Up, Join Waitlist and Trade Spot",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/arcus/",
     "tags": [
       "Ongoing"
     ],
