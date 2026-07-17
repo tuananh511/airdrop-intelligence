@@ -51,6 +51,31 @@
     "ai_score": null
   },
   {
+    "title": "Legend",
+    "website": null,
+    "description": "Actions:Sign Up, Deposit, Trade and Refer Users",
+    "reward": "Unknown",
+    "deadline": "Unknown",
+    "cost": "Unknown",
+    "category": "other",
+    "source": "airdrops.io",
+    "source_url": "https://airdrops.io/legend/",
+    "tags": [
+      "Ongoing"
+    ],
+    "published_at": null,
+    "score": {
+      "worth_score": 70,
+      "reasons": [
+        "Điểm khởi đầu: 50",
+        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
+        "+5: đang trong giai đoạn Ongoing",
+        "+5: không tốn vốn / chi phí thấp"
+      ]
+    },
+    "ai_score": null
+  },
+  {
     "title": "Ducat",
     "website": null,
     "description": "Actions:Join Discord, Request and Redeem Code",
@@ -100,30 +125,6 @@
     "ai_score": null
   },
   {
-    "title": "3Jane",
-    "website": null,
-    "description": "Actions:Supply USDC",
-    "reward": "Unknown",
-    "deadline": "Unknown",
-    "cost": "Unknown",
-    "category": "other",
-    "source": "airdrops.io",
-    "source_url": "https://airdrops.io/3jane/",
-    "tags": [
-      "Ongoing"
-    ],
-    "published_at": null,
-    "score": {
-      "worth_score": 60,
-      "reasons": [
-        "Điểm khởi đầu: 50",
-        "+5: đang trong giai đoạn Ongoing",
-        "+5: không tốn vốn / chi phí thấp"
-      ]
-    },
-    "ai_score": null
-  },
-  {
     "title": "Minotaurus",
     "website": null,
     "description": "Actions:Earn tickets to enter $100k giveaway",
@@ -149,24 +150,23 @@
     "ai_score": null
   },
   {
-    "title": "Legend",
+    "title": "3Jane",
     "website": null,
-    "description": "Actions:Sign Up, Deposit, Trade and Refer Users",
+    "description": "Actions:Supply USDC",
     "reward": "Unknown",
     "deadline": "Unknown",
     "cost": "Unknown",
     "category": "other",
     "source": "airdrops.io",
-    "source_url": "https://airdrops.io/legend/",
+    "source_url": "https://airdrops.io/3jane/",
     "tags": [
       "Ongoing"
     ],
     "published_at": null,
     "score": {
-      "worth_score": 70,
+      "worth_score": 60,
       "reasons": [
         "Điểm khởi đầu: 50",
-        "+10: mô tả đầy đủ chi tiết (>30 ký tự)",
         "+5: đang trong giai đoạn Ongoing",
         "+5: không tốn vốn / chi phí thấp"
       ]
